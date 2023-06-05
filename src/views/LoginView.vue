@@ -3,17 +3,15 @@
     <v-col cols="12" align="center">
       <v-row class="login_wrap">
         <v-col cols="12">
-          <v-row>
-            B-Data
-          </v-row>
+          <v-row> B-Data </v-row>
           <v-row class="pt-3 pb-1">
-            <input class="text_input">
+            <input class="text_input" />
           </v-row>
           <v-row class="pb-3">
-            <input class="text_input">
+            <input class="text_input" />
           </v-row>
           <v-row>
-            <v-btn elevation="0" class="login_btn">로그인</v-btn>
+            <v-btn elevation="0" class="login_btn" color="primary">로그인</v-btn>
           </v-row>
           <v-row class="pt-1" justify="space-between">
             <v-col cols="auto">
@@ -29,9 +27,8 @@
   </v-container>
 </template>
 
-<script setup>
+<script>
 import { RouterLink } from 'vue-router'
-
 </script>
 
 <style scoped>
@@ -49,7 +46,6 @@ import { RouterLink } from 'vue-router'
 }
 .login_btn {
   width: 100%;
-  background-color: teal;
   color: white;
   height: 45px;
 }
